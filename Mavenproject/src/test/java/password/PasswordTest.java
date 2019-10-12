@@ -1,4 +1,4 @@
-package Testng_scenario;
+package password;
 
 import org.apache.commons.codec.binary.Base64;
 import org.openqa.selenium.By;
@@ -23,6 +23,6 @@ public class PasswordTest {
   static String decode(String password) {
 	  byte[] decodestring = Base64.decodeBase64(password);
 	  String decode = null;
-	return(new String(decode));
+	return(new String(decodestring));
   }
 }

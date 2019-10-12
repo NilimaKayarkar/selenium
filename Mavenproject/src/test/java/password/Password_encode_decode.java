@@ -1,4 +1,4 @@
-package Testng_scenario;
+package password;
 
 import org.apache.commons.codec.binary.Base64;
 
